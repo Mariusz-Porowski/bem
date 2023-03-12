@@ -1,10 +1,11 @@
-@use './utilities/colors';
-@use './utilities/sizes';
+@use './utilities/colors' as *;
+@use './utilities/sizes' as *;
 
 body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	background-color: #333;
+	height: 90vh;
+	background-color: $green;
+	font-size: $small;
 }
